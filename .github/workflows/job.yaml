@@ -1,0 +1,10 @@
+name: some_job
+
+on:
+  push
+  
+jobs:
+  some_job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "All good" '
