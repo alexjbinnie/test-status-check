@@ -4,7 +4,7 @@ on:
   push
   
 jobs:
-  some_job:
+  other_job:
     runs-on: ubuntu-latest
     steps:
       - run: 'echo "All good" '
